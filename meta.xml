@@ -5,7 +5,7 @@
   <version>1.0.0</version>
   <release>1</release>
   <vendor>Marco Rodríguez</vendor>
-  <description>Extensión sencilla para monitorear CPU, RAM y Disco en Plesk.</description>
+  <description>Extensión ligera para monitorear CPU, RAM y disco en Plesk.</description>
   <plesk_min_version>18.0</plesk_min_version>
   <license>free</license>
 </extension>
