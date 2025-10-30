@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension>
+  <id>server-monitor-lite</id>
+  <name>Server Monitor Lite</name>
+  <version>1.0.0</version>
+  <release>1</release>
+  <vendor>Marco Rodríguez</vendor>
+  <description>Extensión sencilla para monitorear CPU, RAM y Disco en Plesk.</description>
+  <plesk_min_version>18.0</plesk_min_version>
+  <license>free</license>
+</extension>
