@@ -1,43 +1,31 @@
 <?php
-// index.php
-
-$data = [
-    "cpu" => sys_getloadavg()[0],
-    "memory" => memory_get_usage(true) / 1024 / 1024,
-    "disk" => disk_free_space("/") / disk_total_space("/") * 100,
-    "uptime" => shell_exec("uptime -p")
-];
+// index.php - Dashboard
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Server Monitor Dashboard</title>
+  <meta charset="UTF-8">
+  <title>Server Monitor Lite</title>
   <link rel="stylesheet" href="css/style.css">
   <script src="js/dashboard.js"></script>
 </head>
 <body>
   <div class="dashboard">
-    <h1>Server Monitor</h1>
+    <h1>Server Monitor Lite</h1>
 
     <div class="card">
       <h2>CPU Load</h2>
-      <p id="cpu"><?php echo round($data['cpu'], 2); ?>%</p>
+      <p id="cpu">Cargando...</p>
     </div>
 
     <div class="card">
       <h2>Memory Usage</h2>
-      <p id="memory"><?php echo round($data['memory'], 2); ?> MB</p>
+      <p id="memory">Cargando...</p>
     </div>
 
     <div class="card">
-      <h2>Disk Free</h2>
-      <p id="disk"><?php echo round($data['disk'], 2); ?>%</p>
-    </div>
-
-    <div class="card">
-      <h2>Uptime</h2>
-      <p id="uptime"><?php echo $data['uptime']; ?></p>
+      <h2>Disk Usage</h2>
+      <p id="disk">Cargando...</p>
     </div>
   </div>
 </body>

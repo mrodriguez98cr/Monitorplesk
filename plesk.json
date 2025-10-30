@@ -4,7 +4,6 @@
   "description": "Extensión ligera para monitoreo del servidor.",
   "category": "Monitoring",
   "version": "1.0.0",
-  "author": "cl9",
-  "url": "cluppenwin.com",
+  "author": "Marco Rodríguez",
   "icon": "icon.png"
 }
