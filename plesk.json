@@ -1,9 +1,0 @@
-{
-  "name": "Server Monitor Lite",
-  "title": "Server Monitor Dashboard",
-  "description": "Extensión ligera para monitoreo del servidor.",
-  "category": "Monitoring",
-  "version": "1.0.0",
-  "author": "Marco Rodríguez",
-  "icon": "icon.png"
-}

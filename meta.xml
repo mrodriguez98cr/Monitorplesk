@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<extension>
-  <id>server-monitor-lite</id>
-  <name>Server Monitor Lite</name>
-  <version>1.0.0</version>
-  <release>1</release>
-  <vendor>CL9</vendor>
-  <description>Extensión ligera para monitorear CPU, RAM y disco en Plesk.</description>
-  <plesk_min_version>18.0</plesk_min_version>
-  <license>free</license>
-</extension>
+<module>
+    <name>ServerMonitor</name>
+    <version>1.0.0</version>
+    <release>1</release>
+    <vendor>TuNombre</vendor>
+    <description>Monitor de servidor simple para Plesk</description>
+    <type>service</type>
+    <settings>
+        <setting name="refresh_interval" type="integer" default="5">
+            <title>Intervalo de actualización (segundos)</title>
+        </setting>
+    </settings>
+</module>
